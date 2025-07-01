@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: process.env.NODE_ENV === 'production' ? '/tip-calculator-app-main/' : '/',
+  base: '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
