@@ -1,12 +1,50 @@
-# React + Vite
+# Calculadora de Propinas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web moderna para calcular propinas construida con React, Vite y Tailwind CSS.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interfaz moderna y responsiva
+- Cálculo automático de propinas
+- Diseño limpio y fácil de usar
+- Construido con React y Tailwind CSS
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+
+## Desarrollo
+
+```bash
+npm run dev
+```
+
+## Construcción
+
+```bash
+npm run build
+```
+
+## Despliegue en GitHub Pages
+
+### Opción 1: Despliegue automático (recomendado)
+
+1. Asegúrate de que tu repositorio esté en GitHub
+2. Ve a Settings > Pages en tu repositorio
+3. Selecciona "GitHub Actions" como fuente
+4. Haz push a la rama main - el despliegue será automático
+
+### Opción 2: Despliegue manual
+
+```bash
+npm run deploy
+```
+
+## Tecnologías utilizadas
+
+- React 19
+- Vite
+- Tailwind CSS
+- GitHub Pages
