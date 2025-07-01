@@ -1,75 +1,12 @@
-# Calculadora de Propinas - Frontend Mentor
+# React + Vite
 
-![Vista previa del diseño para el reto de la calculadora de propinas](./preview.jpg)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ¡Bienvenido/a! 👋
+Currently, two official plugins are available:
 
-Este es mi solución al reto de la [Calculadora de Propinas](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX) de Frontend Mentor. El objetivo es practicar mis habilidades en React y Tailwind CSS creando una aplicación interactiva y responsiva.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Tabla de Contenidos
+## Expanding the ESLint configuration
 
-- [Descripción del reto](#descripción-del-reto)
-- [Demo](#demo)
-- [Tecnologías utilizadas](#tecnologías-utilizadas)
-- [Instalación y uso](#instalación-y-uso)
-- [Aprendizajes](#aprendizajes)
-- [Recursos útiles](#recursos-útiles)
-- [Autor](#autor)
-- [Agradecimientos](#agradecimientos)
-
-## Descripción del reto
-
-Los usuarios deben poder:
-
-- Ver el diseño óptimo según el tamaño de pantalla de su dispositivo.
-- Ver los estados hover en todos los elementos interactivos.
-- Calcular correctamente la propina y el total por persona.
-
-## Demo
-
-- [URL de la solución](https://tu-url-de-solucion.com)
-- [Sitio en vivo](https://github.com/AlejaSj/tip-calculator-app)
-
-## Tecnologías utilizadas
-
-- React
-- Tailwind CSS
-- HTML5 semántico
-- JavaScript (ES6+)
-- Metodología Mobile First
-
-## Instalación y uso
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tuusuario/tip-calculator-app.git
-   ```
-2. Instala las dependencias:
-   ```bash
-   npm install
-   ```
-3. Inicia el servidor de desarrollo:
-   ```bash
-   npm start
-   ```
-4. Abre el local host en el puerto abierto.
-
-## Aprendizajes
-
-- Profundicé en el uso de Tailwind CSS para crear interfaces responsivas y atractivas rápidamente.
-- Mejoré mi manejo del estado en React para actualizar los cálculos en tiempo real.
-- Practiqué la validación de formularios y el manejo de errores de usuario.
-
-## Recursos útiles
-
-- [Documentación de Tailwind CSS](https://tailwindcss.com/docs)
-- [React Docs](https://reactjs.org/docs/getting-started.html)
-- [Artículo sobre formularios en React](https://es.react.dev/learn/forms)
-
-## Autor
-
-- Nombre: [Alejandro Sanchez](https://github.com/AlejaSj)
-
-## Agradecimientos
-
-Gracias a la comunidad de Frontend Mentor por los retos y el apoyo. También a mis compañeros/as de estudio por sus sugerencias y feedback.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
