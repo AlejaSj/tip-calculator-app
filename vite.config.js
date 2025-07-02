@@ -7,9 +7,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/',
-  build: {
-    outDir: 'dist',
-    assetsDir: 'assets',
-  }
+  base: 'https://alejasj.github.io/tip-calculator-app',
+
 })
